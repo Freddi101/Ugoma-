@@ -1,0 +1,33 @@
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+
+.nav ul.show {
+    display: block;
+}
+
+@media screen and (max-width:768px){
+    display: none;
+}
+
+/*.nav ul.show {
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    right: 0%;
+    background-color: #444;
+    z-index: 1;
+}
+
+.nav ul li {
+    margin: 0%;
+    padding: 10px 0;
+    display: block;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}*/
